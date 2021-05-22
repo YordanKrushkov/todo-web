@@ -8,7 +8,7 @@ import About from './Pages/About';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/todo-web/">
         <Header />
         <Switch>
           <Route exact path="/" component={ Home } />
