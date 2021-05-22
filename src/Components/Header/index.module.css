@@ -1,0 +1,22 @@
+.header{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.link:hover {
+    text-decoration: white underline;
+    cursor: pointer;
+}
